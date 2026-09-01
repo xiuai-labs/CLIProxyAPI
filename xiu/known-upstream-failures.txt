@@ -1,0 +1,8 @@
+# Tests that fail on the upstream baseline this fork sits on, with no patch of ours in
+# play. One test name per line. Checked in BOTH directions by xiu/run-tests.sh.
+#
+# Confirm on a clean upstream checkout before adding a line. A failure that only shows up
+# with our patch applied is our bug, not upstream's, and belongs nowhere near this file.
+#
+# Currently empty: upstream shipped three red device-profile / User-Agent fingerprint
+# tests through v7.2.143; v7.2.144 fixed them, and the reverse check is what said so.

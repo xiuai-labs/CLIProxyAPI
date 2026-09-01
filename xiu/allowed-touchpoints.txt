@@ -1,0 +1,12 @@
+# Upstream files this fork currently modifies, one path per line.
+#
+# Checked in BOTH directions by xiu/check-touchpoints.sh:
+#   - anything modified but not listed here fails the build
+#   - anything listed here but not modified ALSO fails the build
+#
+# So this is a record of what is true right now, never a permission granted in advance.
+# Add the line in the same commit as the change; delete it when the change goes away.
+# Every line here needs a matching row in PATCHES.md.
+
+# New file. Kept at the repo root so a reviewer sees it before anything else.
+PATCHES.md
